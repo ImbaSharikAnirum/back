@@ -942,6 +942,10 @@ export interface ApiGroupGroup extends Schema.CollectionType {
       'api::address.address'
     >;
     start_time_moscow: Attribute.Time;
+    language: Attribute.String;
+    level: Attribute.String;
+    inventory: Attribute.Boolean & Attribute.DefaultTo<false>;
+    items: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

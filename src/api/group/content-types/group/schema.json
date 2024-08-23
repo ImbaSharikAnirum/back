@@ -113,6 +113,19 @@
     },
     "start_time_moscow": {
       "type": "time"
+    },
+    "language": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "inventory": {
+      "type": "boolean",
+      "default": false
+    },
+    "items": {
+      "type": "string"
     }
   }
 }
